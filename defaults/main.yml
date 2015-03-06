@@ -5,5 +5,6 @@ simplesaml_auth_adminpassword: 'password'
 simplesaml_secretsalt: 'pepper'
 simplesaml_logfile: '/tmp/simplesamlphp.log'
 simplesaml_cookiename: 'saml'
+simplesaml_path: 'saml'
 simplesaml_language: 'en'
 simplesaml_port: 1234
