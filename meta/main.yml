@@ -17,4 +17,4 @@ galaxy_info:
     - web
 
 dependencies:
-  - role: php5-fpm
+  - role: erasme.php5-fpm
