@@ -2,17 +2,17 @@
 
 - name: Grabs required simplesaml version
   get_url:
-    url=https://simplesamlphp.org/res/downloads/simplesamlphp-{{simplesaml.version}}.tar.gz
+    url=https://simplesamlphp.org/res/downloads/simplesamlphp-{{simplesaml_version}}.tar.gz
     dest=/tmp
 
 - name: Creates install directory
   file:
-    path=/{{simplesaml.install_directory}}/
+    path=/{{simplesaml_install_directory}}/
     state=directory
 
 - name: Unpacks simplesaml
   unarchive:
     copy=no
-    src=/tmp/simplesamlphp-{{simplesaml.version}}.tar.gz
-    dest={{simplesaml.install_directory}}
-    creates={{simplesaml.install_directory}}/simplesamlphp-{{simplesaml.version}}/
+    src=/tmp/simplesamlphp-{{simplesaml_version}}.tar.gz
+    dest={{simplesaml_install_directory}}
+    creates={{simplesaml_install_directory}}/simplesamlphp-{{simplesaml_version}}/

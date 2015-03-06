@@ -12,16 +12,6 @@ This playbook will install simplesaml php libs.
 Requirements
 ------------
 
-Required packages (installed automatically) :
-
-  - php5-fpm
-  - php-apc
-  - php5-mcrypt
-  - php5-gd
-  - php5-curl
-  - php-pear
-  - php5-mysql
-
 Role Variables
 --------------
 
