@@ -1,0 +1,9 @@
+simplesaml_base_url: '/saml/'
+simplesaml_version: 1.9.0
+simplesaml_install_directory: /opt/simplesaml/
+simplesaml_auth_adminpassword: 'password'
+simplesaml_secretsalt: 'pepper'
+simplesaml_logfile: '/tmp/simplesamlphp.log'
+simplesaml_cookiename: 'saml'
+simplesaml_language: 'en'
+simplesaml_port: 1234

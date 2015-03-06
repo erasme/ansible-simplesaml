@@ -1,0 +1,18 @@
+- debug: vars=simplesaml
+
+- name: Grabs required simplesaml version
+  get_url:
+    url=https://simplesamlphp.org/res/downloads/simplesamlphp-{{simplesaml.version}}.tar.gz
+    dest=/tmp
+
+- name: Creates install directory
+  file:
+    path=/{{simplesaml.install_directory}}/
+    state=directory
+
+- name: Unpacks simplesaml
+  unarchive:
+    copy=no
+    src=/tmp/simplesamlphp-{{simplesaml.version}}.tar.gz
+    dest={{simplesaml.install_directory}}
+    creates={{simplesaml.install_directory}}/simplesamlphp-{{simplesaml.version}}/
