@@ -5,7 +5,7 @@ simplesaml Ansible playbook
 CI](http://img.shields.io/travis/erasme/ansible-simplesaml.svg?style=flat)](http://travis-ci.org/erasme/ansible-simplesaml)
 [![test-suite](http://img.shields.io/badge/ansible--roles--specs-ansible--simplesaml-blue.svg?style=flat)](https://github.com/erasme/ansible-roles-specs/tree/master/ansible-simplesaml/)
 [![Ansible
-Galaxy](http://img.shields.io/badge/galaxy-erasme.simplesaml-660198.svg?style=flat)](https://galaxy.ansible.com/list#/roles/2971)
+Galaxy](http://img.shields.io/badge/galaxy-erasme.simplesaml-660198.svg?style=flat)](https://galaxy.ansible.com/list#/roles/3040)
 
 This playbook will install simplesaml php libs.
 
