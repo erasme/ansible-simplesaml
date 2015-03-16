@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Michel Blanc
-  description: laclasse annuaire role
+  description: SimpleSAML role
   company: ERASME/Grand-Lyon Métropole
   license: MIT
   min_ansible_version: 1.8
