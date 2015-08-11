@@ -1,0 +1,2 @@
+- src: https://github.com/erasme/ansible-rbenv.git
+  name: ansible-php5-fpm
